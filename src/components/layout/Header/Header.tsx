@@ -1,6 +1,4 @@
-import { DeliveryLocation } from "@/components/layout/Header/DeliveryLocation";
-import { Logo } from "@/components/layout/Header/Logo";
-import { SearchLoginButton } from "@/components/layout/Header/SearchLogin";
+import { DeliveryLocation, Logo, SearchLoginButton } from "@/components/layout/Header";
 
 
 export function Header() {
