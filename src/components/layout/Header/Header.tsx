@@ -1,12 +1,19 @@
-import { DeliveryLocation, Logo, SearchLoginButton } from "@/components/layout/Header";
-
+import {
+  DeliveryLocation,
+  Logo,
+  MobileMenu,
+  SearchFab,
+  SearchLoginButton,
+} from "@/components/layout/Header";
 
 export function Header() {
     return (
-        <div className="w-full p-4 flex justify-between px-24">
+        <header className="w-full p-4 flex justify-between items-center gap-4 md:px-24">
             <Logo />
             <DeliveryLocation />
             <SearchLoginButton />
-        </div>
+            <MobileMenu />
+            <SearchFab />
+        </header>
     )
 }
