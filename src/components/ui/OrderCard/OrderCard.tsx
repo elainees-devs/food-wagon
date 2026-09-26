@@ -104,7 +104,7 @@ export function OrderCard() {
   };
 
   return (
-    <div className="flex w-3/4 items-center rounded-2xl border-t-4 border-primary bg-surface shadow-md">
+    <div className="flex w-full items-center rounded-2xl border-t-4 border-primary bg-surface shadow-md">
       
       {/* Left section */}
       <div className="flex-1 p-4">
@@ -147,9 +147,11 @@ export function OrderCard() {
             <DeliveryAddress />
           ) : (
             pickupOpen && (
-              <div className="space-y-3">
-                <PickupLocation />
-                <PickupTimeSelector />
+              <div className="max-h-[200px] overflow-y-auto pr-1.5 scrollbar-subtle sm:max-h-[240px]">
+                <div className="space-y-3">
+                  <PickupLocation />
+                  <PickupTimeSelector />
+                </div>
               </div>
             )
           )}
