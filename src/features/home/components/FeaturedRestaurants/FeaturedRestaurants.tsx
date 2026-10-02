@@ -1,5 +1,7 @@
 
 
+import { ArrowRight } from "lucide-react";
+
 import { featuredRestaurants } from "@/features/home/components/FeaturedRestaurants/Restaurants.data";
 import { RestaurantCard } from "./RestaurantCard";
 
@@ -19,6 +21,14 @@ export function FeaturedRestaurants() {
               Featured Restaurants
             </h2>
           </div>
+
+          <button
+            type="button"
+            className="inline-flex items-center gap-2 rounded-full border border-border bg-white px-4 py-2.5 text-sm font-semibold text-text-primary transition-colors duration-200 hover:border-primary hover:text-primary focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 focus-visible:ring-offset-2"
+          >
+            View All
+            <ArrowRight className="h-4 w-4" strokeWidth={2.5} aria-hidden="true" />
+          </button>
         </div>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
