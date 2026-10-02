@@ -1,14 +1,21 @@
 import { Header } from "@/components/layout/Header";
-import { FlashDeals, Hero, HowItWorks, PopularItems } from "@/features/home/components";
+import {
+  FeaturedRestaurants,
+  FlashDeals,
+  Hero,
+  HowItWorks,
+  PopularItems,
+} from "@/features/home/components";
 
-export function HomePage(){
-    return(
-        <div>
-            <Header />
-            <Hero />
-            <FlashDeals />
-            <HowItWorks />
-            <PopularItems />
-        </div>
-    )
+export function HomePage() {
+  return (
+    <div>
+      <Header />
+      <Hero />
+      <FlashDeals />
+      <FeaturedRestaurants />
+      <PopularItems />
+      <HowItWorks />
+    </div>
+  );
 }
