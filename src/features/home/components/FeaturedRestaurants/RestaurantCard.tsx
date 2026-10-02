@@ -1,7 +1,4 @@
 import { Star } from "lucide-react";
-
-
-
 import { RestaurantBadge } from "./RestaurantBadge";
 import { RestaurantStatus } from "./RestaurantStatus";
 import type { FeaturedRestaurant } from "@/features/home/components/FeaturedRestaurants/Restaurants.data";
