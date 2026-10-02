@@ -1,5 +1,5 @@
 import { Header } from "@/components/layout/Header";
-import { FlashDeals, Hero, HowItWorks } from "@/features/home/components";
+import { FlashDeals, Hero, HowItWorks, PopularItems } from "@/features/home/components";
 
 export function HomePage(){
     return(
@@ -8,6 +8,7 @@ export function HomePage(){
             <Hero />
             <FlashDeals />
             <HowItWorks />
+            <PopularItems />
         </div>
     )
 }
