@@ -5,6 +5,7 @@ import {
   Hero,
   HowItWorks,
   PopularItems,
+  SearchByFood,
 } from "@/features/home/components";
 
 export function HomePage() {
@@ -14,6 +15,7 @@ export function HomePage() {
       <Hero />
       <FlashDeals />
       <FeaturedRestaurants />
+      <SearchByFood />
       <PopularItems />
       <HowItWorks />
     </div>
