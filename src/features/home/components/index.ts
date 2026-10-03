@@ -1,3 +1,4 @@
+export { AppDownload } from "./AppDownload";
 export { Benefits } from "./Benefits";
 export { FeaturedRestaurants } from "./FeaturedRestaurants";
 export { FlashDeals } from "./FlashDeals";
