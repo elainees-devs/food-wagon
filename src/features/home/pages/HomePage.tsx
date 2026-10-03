@@ -1,5 +1,6 @@
 import { Header } from "@/components/layout/Header";
 import {
+  Benefits,
   FeaturedRestaurants,
   FlashDeals,
   Hero,
@@ -18,6 +19,7 @@ export function HomePage() {
       <SearchByFood />
       <PopularItems />
       <HowItWorks />
+      <Benefits />
     </div>
   );
 }
