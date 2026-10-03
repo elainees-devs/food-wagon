@@ -1,4 +1,5 @@
 import { Header } from "@/components/layout/Header";
+import { BestDeals } from "@/features/home/BestDeals/BestDeals";
 import {
   AppDownload,
   Benefits,
@@ -22,6 +23,7 @@ export function HomePage() {
       <HowItWorks />
       <Benefits />
       <AppDownload />
+      <BestDeals />
     </div>
   );
 }
