@@ -179,7 +179,7 @@ export function SearchByFood() {
             aria-label="Food categories"
           >
             {categories.map((category) => (
-              <li key={category.id} className="flex flex-shrink-0">
+              <li key={category.id} className="flex flex-shrink-0 pl-8">
                 <FoodCategoryCard
                   category={category}
                   onSelect={handleSelect}
